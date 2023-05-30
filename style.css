@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+/* .header{
+   
+} */
+.nav-bars{
+    /* display: flex; */ padding:1rem;  background-color: aqua;
+    font-size: large;
+}
+
+.left{
+    padding: 1rem;
+    float: left;
+}
+.right{
+    float: right;
+    padding: 1rem;
+}
+ul>a{
+    text-decoration: none;
+    background-color: black;
+    color: grey;
+    padding: 8px;
+    border-radius: 50px;
+}
+ul>a:hover{
+    color: black;
+    background-color: grey;
+    transition: 0.5s;
+}
+input{
+    font-size: larger;
+    width: 55%;
+    text-align: center;
+    height: 3em;
+    border-radius: 50px;
+}
+input[placeholder]{
+    font-size: x-large;
+
+}
+.learn-to-code{
+    text-align: center;
+    background-color: #282a35 !important;
+    padding: 10rem;
+}
+.heading-1{
+    font-size: 5rem;
+    color: white;
+}
+.heading-2{
+    font-size: xx-large;
+    color: pink;
+}
+.learn-to-code>a{
+    font-size: xx-large;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.html{
+    background-color: lightgreen;
+    padding: 5rem;
+}
+.html>h1{
+    font-size: 6rem; 
+    /* text-align: center; */
+}
+.html>h6{
+    font-size: 3.5rem;
+}
+
+.html-lists{
+    font-size:xx-large;
+    /* display: inline; */
+    font-weight: 800;
+    width:20%;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+.css{
+    background-color:blanchedalmond;
+    padding: 5rem;
+}
+.css>h1{
+    font-size: 6rem; 
+}
+.css>h6{
+    font-size: 3.5rem;
+}
+.css-lists{
+    font-size:xx-large;
+    /* display: inline; */
+    font-weight: 800;
+    width:20%;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+.js{
+    background-color: #282a35 !important;
+    padding: 5rem;
+}
+.js>h1{
+    font-size: 6rem; 
+    color: white;
+}
+.js>h6{
+    font-size: 3.5rem;
+    color: white;
+}
+.js-lists{
+    font-size:xx-large;
+    color: rgb(25, 22, 22);
+    font-weight: 800;
+    width:20%;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+.python{
+    background-color: lightgray ;
+    padding: 5rem;
+}
+.python>h1{
+    font-size: 6rem; 
+}
+.python>h6{
+    font-size: 3.5rem;
+    /* color: white; */
+}
+.py-lists{
+    font-size:xx-large;
+    color: rgb(25, 22, 22);
+    font-weight: 800;
+    width:20%;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+.sql{
+    background-color:lightblue;
+    padding: 5rem;
+}
+.sql>h1{
+    font-size: 6rem; 
+}
+.sql>h6{
+    font-size: 3.5rem;
+    /* color: white; */
+}
+.sq-lists{
+    font-size:xx-large;
+    color: rgb(25, 22, 22);
+    font-weight: 800;
+    width:20%;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+.inner-content-2{
+    background-color: #282a35 !important;
+    padding: 5rem;
+    width: 100%;
+}
+.lang{
+    width: 40%;
+    background-color: rgb(74, 13, 13);
+    text-align: center;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 60px;
+}
+.lang>h1{
+  font-size: 4rem;
+}
+.lang>h6{
+    font-size: 2rem;
+}
+.lists-5>ul{
+    font-size:large;
+    color: rgb(25, 22, 22);
+    font-weight: 800;
+    width:40%;
+    /* text-align: center; */
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+.lists-5{
+    text-align: center;
+}
+.inner-content-2{
+    width: 100%;
+    color: whitesmoke;
+}
+
+.col-sm-6
+{
+    padding: 5rem;
+    color: aliceblue;
+    background-color: red;
+    margin: 10px;
+    width: 30%;
+    border-radius: 50px;
+}
+.row{
+    display: flex;
+}
